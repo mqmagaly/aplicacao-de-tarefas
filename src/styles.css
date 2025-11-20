@@ -1,0 +1,101 @@
+body {
+  font-family: Arial, sans-serif;
+  background: #f6f6f6;
+  margin: 0;
+}
+
+.app {
+  max-width: 900px;
+  margin: 32px auto;
+  padding: 16px;
+}
+
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 16px;
+}
+.header h1 {
+  color: #333;
+}
+
+.header nav a {
+  text-decoration: none;
+  margin-left: 15px;
+  color: #1e1f21e4;
+  font-weight: 500;
+  transition: 0.2s;
+}
+
+.header nav a:hover {
+  color: #335ccc;
+  font-size: larger;
+  font-weight: 520;
+}
+
+.main {
+  background: #fff;
+  padding: 25px;
+  border-radius: 10px;
+  box-shadow: 0 2px 12px rgba(0,0,0,0.08);
+  margin-top: 20px;
+}
+
+.task-list {
+  list-style: none;
+  padding: 0;
+}
+
+.task-item {
+  display: flex;
+  justify-content: space-between;
+  padding: 12px 0;
+  border-bottom: 1px solid #ddd;
+}
+ input,
+textarea {
+  width: 97%;
+  padding: 10px;
+  margin-top: 6px;
+  border-radius: 6px;
+  border: 1px solid #ccc;
+  outline: none;
+}
+
+
+button,
+.task-actions :first-child {
+  background: #4a76e8;
+  color: #fff;
+  padding: 8px 14px;
+  border: none;
+  border-radius: 6px;
+  cursor: pointer;
+  transition: 0.2s;  
+}
+
+button:hover, 
+.task-actions :first-child:hover{
+  background: #041d64;
+}
+
+.task-actions button {
+  background: #e74c3c;
+  color: #fff;
+  padding: 9px 14px;
+  border: none;
+  border-radius: 6px;
+  cursor: pointer;
+  transition: 0.2s;
+  margin-left: 1rem;
+}
+
+.task-actions button:hover {
+  background: #9b2115;
+}
+
+.task-actions :first-child{
+  text-decoration: none;
+  background: #02a325;
+}
